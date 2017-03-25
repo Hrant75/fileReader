@@ -18,7 +18,7 @@ public class Client {
         System.out.println("Input File Name(1.scv, 2.tsv, 3.nlsv):");
         Reader reader = fileReader(scanner.nextLine());
 
-        System.out.println("Input Action Type(1 for sum, 2 for average or 3):");
+        System.out.println("Input Action Type(1-sum, 2 - difference or 3 - even odd):");
         actionType(scanner.nextInt(), reader.readFile());
     }
 
